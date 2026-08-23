@@ -12,7 +12,8 @@
   --color-accent-soft: #e2a480;
   --color-border: rgba(246, 239, 227, 0.14);
   --font-body: 'Georama', 'Segoe UI', sans-serif;
-  --font-heading: 'Megrim', 'Georama', sans-serif;
+  /* --font-heading: 'Megrim', 'Georama', sans-serif; */
+  --font-heading: 'Bubbler One', 'Georama', sans-serif;
 }
 
 @layer base {

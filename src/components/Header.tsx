@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import { CloseIcon, MenuIcon } from './icons.tsx'
+import { useState } from "react";
+import { CloseIcon, MenuIcon } from "./icons.tsx";
 
 const navItems = [
-  { href: '#blurb', label: 'About' },
-  { href: '#portfolio', label: 'Portfolio' },
-  { href: '#shop', label: 'Shop' },
-  { href: '#connect', label: 'Connect' },
-]
+  { href: "#blurb", label: "About" },
+  { href: "#portfolio", label: "Portfolio" },
+  { href: "#shop", label: "Shop" },
+  { href: "#connect", label: "Connect" },
+];
 
 function Header() {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-10 border-b border-border bg-[rgba(20,31,28,0.85)] backdrop-blur-sm">
@@ -19,8 +19,19 @@ function Header() {
           href="#top"
           onClick={() => setMenuOpen(false)}
         >
-          <img src="/logo.png" alt="Vivaria logo" width={36} height={36} className="h-8 w-8 sm:h-9 sm:w-9" />
-          Vivaria
+          <img
+            src="/logo.png"
+            alt="Vivaria logo"
+            width={36}
+            height={36}
+            className="h-8 w-8 sm:h-9 sm:w-9"
+          />
+          <img
+            src="/logo-name-2.png"
+            alt="Vivaria brand name"
+            height={36}
+            className="h-4 w-auto sm:h-5 sm:w-auto"
+          />
         </a>
 
         <nav className="hidden items-center gap-5 sm:flex">
@@ -38,11 +49,15 @@ function Header() {
         <button
           type="button"
           className="inline-flex items-center justify-center rounded-full border border-border p-2 text-paper sm:hidden"
-          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
           aria-expanded={menuOpen}
           onClick={() => setMenuOpen((open) => !open)}
         >
-          {menuOpen ? <CloseIcon className="h-5 w-5" /> : <MenuIcon className="h-5 w-5" />}
+          {menuOpen ? (
+            <CloseIcon className="h-5 w-5" />
+          ) : (
+            <MenuIcon className="h-5 w-5" />
+          )}
         </button>
       </div>
 
@@ -61,7 +76,7 @@ function Header() {
         </nav>
       )}
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
