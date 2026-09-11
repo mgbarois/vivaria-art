@@ -59,10 +59,9 @@ export const portfolioImages: PortfolioImage[] = [
 
 export const shopEntries: ShopEntry[] = [
   {
-    label: "Main shop",
+    label: "Etsy shop",
     description: "Prints, t-shirts, and other products featuring my artwork.",
-    // url: "https://shop.vivaria-art.com",
-    url: "https://vivaria-designs.printify.me",
+    url: "https://www.etsy.com/de-en/shop/VivariaByMadeleine",
     ready: true,
     images: ["/product-2.jpg", "/product-1.jpg", "/product-3.jpg"],
   },
@@ -72,12 +71,6 @@ export const shopEntries: ShopEntry[] = [
     url: "https://www.redbubble.com/people/EelMaiden/shop",
     ready: true,
     images: ["/sticker-1.jpg", "/sticker-2.jpg", "/sticker-3.jpg"],
-  },
-  {
-    label: "Etsy shop",
-    description: "Original art and prints — shop opening soon.",
-    url: "#",
-    ready: false,
   },
 ];
 

@@ -8,7 +8,7 @@ function Shop() {
       <p className="mx-auto mb-8 max-w-[50ch] text-center">
         Find Vivaria art in a few different places, each with its own lineup.
       </p>
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         {shopEntries.map((entry) =>
           entry.ready ? (
             <a

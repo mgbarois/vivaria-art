@@ -6,6 +6,7 @@ const navItems = [
   { href: "#portfolio", label: "Portfolio" },
   { href: "#shop", label: "Shop" },
   { href: "#connect", label: "Connect" },
+  { href: "#contact", label: "Contact" },
 ];
 
 function Header() {

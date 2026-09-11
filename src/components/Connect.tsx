@@ -11,8 +11,8 @@ function Connect() {
     <section id="connect" className="section text-center">
       <h2>Connect</h2>
       <p className="mx-auto mb-6 max-w-[50ch]">
-        Contact me on my website for questions, collaborations, or custom
-        orders, and follow along with new work on my Instagram.
+        Find more about me on my website, and follow along with new work on
+        Instagram.
       </p>
 
       <a
